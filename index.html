@@ -1,0 +1,465 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OLX-clone</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <nav class="sticky top-0 bg-white">
+
+    <div class="lg:px-20 pt-3 flex justify-between  sm:px-3   md:px-5 xsm:p-0">
+      <div class="flex gap-16 items-center">
+        <div>
+          <img src="./img/olxlogo.png" alt>
+        </div>
+
+        <div class="flex gap-5">
+          <div class="flex items-center gap-1">
+            <div><img src="./img/motors.png" class="h-8 w-16"></div>
+            <span class="font-semibold text-green-950">Motors</span>
+          </div>
+
+          <div class="flex items-center gap-1">
+            <div><img src="./img/property.png" class="h-8 w-14"></div>
+            <span class="font-semibold text-green-950">Motors</span>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="flex gap-5 items-center">
+
+        <div class="font-semibold text-green-950 border-b-2 border-black hover:border-none cursor-pointer">Login</div>
+
+        <div class="relative">
+
+          <span class="absolute bottom-3 right-8 flex items-center gap-1 font-semibold"><img src="./img/plus.svg"
+              alt>Sell</span>
+          <img src="https://www.olx.com.pk/assets/iconSellBorder_noinline.d9eebe038fbfae9f90fd61d971037e02.svg"
+            class="_6257aca6" alt="Button border">
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="px-20 mt-8 bg-red-100 flex gap-5 pb-3">
+      <div class="relative">
+        <img src="./img/iconLocationGradient_noinline.svg" alt="" class=" absolute  top-3 left-2">
+        <input type="text" class="w-[450px] h-12 border border-black rounded-md p-6 pl-10  focus:outline-blue-500 focus"
+          value="Pakistan">
+      </div>
+      <div class="relative flex-1">
+        <input type="text" class=" w-full h-12 border border-black rounded-md focus:outline-blue-500 p-5" placeholder="Find Cars, Mobiles Phones and more... ">
+        <button class="btn absolute bg-emerald-950 h-12 text-white rounded-r-md right-0  w-32"><i class="fa-solid fa-magnifying-glass text-md"> </i>  <span class="font-semibold text-lg">search</span> </button>
+      </div>
+    </div>
+
+  </nav>
+
+  <main>
+
+    <div>
+      <ul class="flex sm:gap-7 sm:px-3  lg:px-20 ">
+        <li class="font-semibold text-green-950">All categories</li>
+        <li>Mobile Phones</li>
+        <li>Cars</li>
+        <li>Motorcycles</li>
+        <li>Houses</li>
+        <li>Video-Audios</li>
+        <li>Tablets</li>
+        <li>Land & Plots</li>
+      </ul>
+    </div>
+
+    <div class="mt-10 lg:p-5 md:p-5 sm:p-5">
+      <img src="./img/banner.webp" class="w-full" alt>
+    </div>
+
+    <div class="grid lg:grid-cols-7 px-12  md:grid-cols-5 sm:grid-cols-3">
+      <div class="lg:w-24 flex flex-col items-center sm:w-32 md:w-28">
+        <img src="./img/mobiles.png" alt class="w-full">
+        <span>Mobiles</span>
+      </div>
+
+      <div class="lg:w-24 flex flex-col items-center sm:w-32 md:w-28">
+        <img src="./img/vehicles.png" alt class="w-full">
+        <span>Vehicles</span>
+      </div>
+
+      <div class="lg:w-24 flex flex-col items-center sm:w-32 md:w-28">
+        <img src="./img/property-for-sale.png" alt class="w-full">
+        <span>Property for Sale</span>
+      </div>
+      <div class="lg:w-24 flex flex-col items-center sm:w-32 md:w-28">
+        <img src="./img/property-for-rent.png" alt class="w-full">
+        <span>Property for Rent</span>
+      </div>
+
+      <div class="lg:w-24 flex flex-col items-center sm:w-32 md:w-28">
+        <img src="./img/electronics-home-appliances.png" alt class="w-full">
+        <span>Electronics & Home Appliances</span>
+      </div>
+
+      <div class="lg:w-24 flex flex-col items-center sm:w-32 md:w-28">
+        <img src="./img/bikes.png" alt class="w-full">
+        <span>Bikes</span>
+      </div>
+
+      <div class="lg:w-24 flex flex-col items-center sm:w-32 md:w-28">
+        <img src="./img/business-industrial-agriculture.png" alt class="w-full">
+        <span>Business, Industrial & Agriculture</span>
+      </div>
+
+      <div class="lg:w-24 flex flex-col items-center sm:w-32 md:w-28">
+        <img src="./img/services.png" alt class="w-full">
+        <span>Services</span>
+      </div>
+
+      <div class="lg:w-24 flex flex-col items-center sm:w-32 md:w-28">
+        <img src="./img/jobs.png" alt class="w-full">
+        <span>Jobs</span>
+      </div>
+
+      <div class="lg:w-24 flex flex-col items-center sm:w-32 md:w-28">
+        <img src="./img/animals.png" alt class="w-full">
+        <span>Animals</span>
+      </div>
+
+      <div class="lg:w-24 flex flex-col items-center sm:w-32 md:w-28">
+        <img src="./img/furniture-home-decor.png" alt class="w-full">
+        <span>Furniture & Home</span>
+      </div>
+
+      <div class="lg:w-24 flex flex-col items-center sm:w-32 md:w-28">
+        <img src="./img/fashion-beauty.png" alt class="w-full">
+        <span>Fashion & Beauty
+        </span>
+      </div>
+
+      <div class="lg:w-24 flex flex-col items-center sm:w-32 md:w-28">
+        <img src="./img/books-sports-hobbies.png" alt class="w-full">
+        <span>Books, Sports & </span>
+      </div>
+
+      <div class="lg:w-24 flex flex-col items-center sm:w-32 md:w-28">
+        <img src="./img/kids.png" alt class="w-full">
+        <span>Kids</span>
+      </div>
+
+    </div>
+
+    <h1 class="text-4xl lg:px-20 md:px-5 sm:px-3">Mobile phones</h1>
+    <div
+      class="grid items-center lg:grid-cols-5 gap-20 md:grid-cols-4 gap-18 sm:grid-cols-2 lg:px-20 md:px-5 sm:px-3 pt-10">
+      <div class="lg:w-56  sm:w-44   ">
+        <img src="./img/i-phone.webp" alt>
+        <div class="pt-3">
+          <div class="flex justify-between">
+            <p class="font-semibold text-green-950">Rs 42.75 Lacs</p>
+            <img src="./img/heart-regular.png" alt class="w-5">
+          </div>
+          <div class>
+            <span class="text-lg">Toyota Yaris 1.3 2021</span><br>
+            <span class="text-md">2021 . 161,000 km . petrol</span><br>
+            <span class="text-sm">Qadirpur Ran, Multan</span><br>
+            <span class="text-xsm">5 days ago</span>
+          </div>
+        </div>
+
+
+
+      </div>
+
+
+
+      <div class="lg:w-56  sm:w-44   ">
+        <img src="./img/i-phone.webp" alt>
+        <div class="pt-3">
+          <div class="flex justify-between">
+            <p class="font-semibold text-green-950">Rs 42.75 Lacs</p>
+            <img src="./img/heart-regular.png" alt class="w-5">
+          </div>
+          <div class>
+            <span class="text-lg">Toyota Yaris 1.3 2021</span><br>
+            <span class="text-md">2021 . 161,000 km . petrol</span><br>
+            <span class="text-sm">Qadirpur Ran, Multan</span><br>
+            <span class="text-xsm">5 days ago</span>
+          </div>
+        </div>
+
+
+
+      </div>
+
+
+
+
+
+
+
+      <div class="lg:w-56  sm:w-44   ">
+        <img src="./img/i-phone.webp" alt>
+        <div class="pt-3">
+          <div class="flex justify-between">
+            <p class="font-semibold text-green-950">Rs 42.75 Lacs</p>
+            <img src="./img/heart-regular.png" alt class="w-5">
+          </div>
+          <div class>
+            <span class="text-lg">Toyota Yaris 1.3 2021</span><br>
+            <span class="text-md">2021 . 161,000 km . petrol</span><br>
+            <span class="text-sm">Qadirpur Ran, Multan</span><br>
+            <span class="text-xsm">5 days ago</span>
+          </div>
+        </div>
+
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+      <div class="lg:w-56  sm:w-44   ">
+        <img src="./img/i-phone.webp" alt>
+        <div class="pt-3">
+          <div class="flex justify-between">
+            <p class="font-semibold text-green-950">Rs 42.75 Lacs</p>
+            <img src="./img/heart-regular.png" alt class="w-5">
+          </div>
+          <div class>
+            <span class="text-lg">Toyota Yaris 1.3 2021</span><br>
+            <span class="text-md">2021 . 161,000 km . petrol</span><br>
+            <span class="text-sm">Qadirpur Ran, Multan</span><br>
+            <span class="text-xsm">5 days ago</span>
+          </div>
+        </div>
+
+
+
+      </div>
+      <div class="lg:w-56  sm:w-44   ">
+        <img src="./img/i-phone.webp" alt>
+        <div class="pt-3">
+          <div class="flex justify-between">
+            <p class="font-semibold text-green-950">Rs 42.75 Lacs</p>
+            <img src="./img/heart-regular.png" alt class="w-5">
+          </div>
+          <div class>
+            <span class="text-lg">Toyota Yaris 1.3 2021</span><br>
+            <span class="text-md">2021 . 161,000 km . petrol</span><br>
+            <span class="text-sm">Qadirpur Ran, Multan</span><br>
+            <span class="text-xsm">5 days ago</span>
+          </div>
+        </div>
+
+
+
+      </div>
+
+      <div class="lg:w-56  sm:w-44   ">
+        <img src="./img/i-phone.webp" alt>
+        <div class="pt-3">
+          <div class="flex justify-between">
+            <p class="font-semibold text-green-950">Rs 42.75 Lacs</p>
+            <img src="./img/heart-regular.png" alt class="w-5">
+          </div>
+          <div class>
+            <span class="text-lg">Toyota Yaris 1.3 2021</span><br>
+            <span class="text-md">2021 . 161,000 km . petrol</span><br>
+            <span class="text-sm">Qadirpur Ran, Multan</span><br>
+            <span class="text-xsm">5 days ago</span>
+          </div>
+        </div>
+
+
+
+      </div>
+
+
+      <div class="lg:w-56  sm:w-44   ">
+        <img src="./img/i-phone.webp" alt>
+        <div class="pt-3">
+          <div class="flex justify-between">
+            <p class="font-semibold text-green-950">Rs 42.75 Lacs</p>
+            <img src="./img/heart-regular.png" alt class="w-5">
+          </div>
+          <div class>
+            <span class="text-lg">Toyota Yaris 1.3 2021</span><br>
+            <span class="text-md">2021 . 161,000 km . petrol</span><br>
+            <span class="text-sm">Qadirpur Ran, Multan</span><br>
+            <span class="text-xsm">5 days ago</span>
+          </div>
+        </div>
+
+
+
+      </div>
+
+      <div class="lg:w-56  sm:w-44   ">
+        <img src="./img/i-phone.webp" alt>
+        <div class="pt-3">
+          <div class="flex justify-between">
+            <p class="font-semibold text-green-950">Rs 42.75 Lacs</p>
+            <img src="./img/heart-regular.png" alt class="w-5">
+          </div>
+          <div class>
+            <span class="text-lg">Toyota Yaris 1.3 2021</span><br>
+            <span class="text-md">2021 . 161,000 km . petrol</span><br>
+            <span class="text-sm">Qadirpur Ran, Multan</span><br>
+            <span class="text-xsm">5 days ago</span>
+          </div>
+        </div>
+
+
+
+      </div>
+
+      <div class="lg:w-56  sm:w-44   ">
+        <img src="./img/i-phone.webp" alt>
+        <div class="pt-3">
+          <div class="flex justify-between">
+            <p class="font-semibold text-green-950">Rs 42.75 Lacs</p>
+            <img src="./img/heart-regular.png" alt class="w-5">
+          </div>
+          <div class>
+            <span class="text-lg">Toyota Yaris 1.3 2021</span><br>
+            <span class="text-md">2021 . 161,000 km . petrol</span><br>
+            <span class="text-sm">Qadirpur Ran, Multan</span><br>
+            <span class="text-xsm">5 days ago</span>
+          </div>
+        </div>
+
+
+
+      </div>
+
+      <div class="lg:w-56  sm:w-44   ">
+        <img src="./img/i-phone.webp" alt>
+        <div class="pt-3">
+          <div class="flex justify-between">
+            <p class="font-semibold text-green-950">Rs 42.75 Lacs</p>
+            <img src="./img/heart-regular.png" alt class="w-5">
+          </div>
+          <div class>
+            <span class="text-lg">Toyota Yaris 1.3 2021</span><br>
+            <span class="text-md">2021 . 161,000 km . petrol</span><br>
+            <span class="text-sm">Qadirpur Ran, Multan</span><br>
+            <span class="text-xsm">5 days ago</span>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+
+  </main>
+
+
+
+
+
+  <footer class=" mt-24">
+    <div class="lg:px-20">
+      <div class="flex  relative ">
+        <div class="w-52 cursor-pointer ml-14">
+          <img src="./img/olx-mobile-app.webp " alt="">
+        </div>
+        <div class="w-32 absolute  right-64 top-10 flex gap-7 cursor-pointer">
+          <img src="./img/iconAppStoreEN_noinline.svg" alt="">
+          <img src="./img/iconGooglePlayEN_noinline.svg" alt="">
+          <img src="./img/iconAppGallery_noinline.svg" alt="">
+        </div>
+      </div>
+
+      <div class="grid lg:grid-cols-5 md:grid-cols-3 px-5 sm:grid-cols-2 mt-10 ">
+        <div>
+          <h2 class="mt-10 text-lg font-bold text-green-950 hover:cursor-pointer hover:text-green-700">Popular
+            Categories</h2>
+          <ul class="mt-3 text-green-950">
+
+            <li class="mt-1 hover:cursor-pointer hover:text-green-700">Cars</li>
+            <li class="mt-1 hover:cursor-pointer hover:text-green-700">Flats for rent </li>
+            <li class="mt-1 hover:cursor-pointer hover:text-green-700">Mobile Phones</li>
+            <li class="mt-1 hover:cursor-pointer hover:text-green-700">Jobs</li>
+          </ul>
+        </div>
+
+
+
+        <div>
+          <h2 class="mt-10 text-lg font-bold text-green-950 cursor-pointer hover:text-green-700">Trending Search</h2>
+          <ul class="mt-3 text-green-950">
+
+            <li class="mt-1 cursor-pointer hover:text-green-700">Bikes</li>
+            <li class="mt-1 cursor-pointer hover:text-green-700">Watches </li>
+            <li class="mt-1 cursor-pointer hover:text-green-700">Books</li>
+            <li class="mt-1 cursor-pointer hover:text-green-700">Dogs</li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 class="mt-10 text-lg font-bold text-green-950 cursor-pointer hover:text-green-700">
+            About Us</h2>
+          <ul class="mt-3 text-green-950">
+
+            <li class="mt-1 cursor-pointer hover:text-green-700">OLX Blog</li>
+            <li class="mt-1 cursor-pointer hover:text-green-700">Contact Us </li>
+            <li class="mt-1 cursor-pointer hover:text-green-700">OLX for <br> Businesses</li>
+
+          </ul>
+        </div>
+
+
+        <div>
+          <h2 class="mt-10 text-lg font-bold text-green-950 cursor-pointer hover:text-green-700">
+            OLX</h2>
+          <ul class="mt-3 text-green-950">
+
+            <li class="mt-1 cursor-pointer hover:text-green-700">Help</li>
+            <li class="mt-1 cursor-pointer hover:text-green-700">Sitemap </li>
+            <li class="mt-1 cursor-pointer hover:text-green-700">Terms of use </li>
+            <li class="mt-1 cursor-pointer hover:text-green-700">Privacy Policy</li>
+
+          </ul>
+        </div>
+
+        <div>
+          <h2 class="mt-10 text-lg font-bold text-green-950">
+            Follow Us</h2>
+          <ul class="mt-3 text-green-950 flex items-center gap-5">
+
+            <li class="border-b-1 rounded-md  "><i class="fa-brands fa-x-twitter text-2xl"></i></li>
+            <li class="mt-1 "><i class="fa-brands fa-facebook text-2xl"></i> </li>
+            <li class="mt-1 "><i class="fa-brands fa-youtube text-2xl"></i></li>
+            <li class="mt-1 "><i class="fa-brands fa-instagram text-2xl"></i></li>
+
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    <div class=" h-16 w-full  bg-emerald-950 mt-16 text-white ">
+      <p class=" float-right mt-4 mr-24 tracking-wide"><span class="font-bold"> Classifieds in Pakistan.</span>©
+        2006 – 2026 OLX</p>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
